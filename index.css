@@ -41,7 +41,7 @@ span {
     border: none;
 }
 .search i{
-    position: absolute;
+    position: relative;
     width:50px;
     padding:10px;
     pointer-events: none;
@@ -148,19 +148,4 @@ li{
 .card-container{
     width:250px;
     gap:10px;
-    animation-name: vanilla;
-    animation-duration: 6s;
-}
-@keyframes vanilla {
-    30%{
-        transform: rotate(60 deg);
-    }
-    60%{
-        transform: skew(120 deg);
-        scale: 1.1;
-    }
-    90%{
-        transform: rotate(180 deg);
-        transform: 200px;
-    }
-}
+ }   
